@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Sederhana </title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="angka-pertama">Angka Pertama: </label>
+            <input type="number" id="angka-pertama">
+        </div>
+        <select name="operator" id="operator">
+            <option value="tambah">+</option>
+            <option value="kurang">-</option>
+            <option value="bagi">/</option>
+            <option value="kali">*</option>
+        </select>
+        <div class="form-group">
+            <label for="angka-kedua">Angka Kedua: </label>
+            <input type="number" id="angka-kedua">
+        </div>
+        <div class="button-groups">
+            <button type="submit" id="submit">Jumlah</button>
+            <button type="submit" id="reset">Reset</button>
+        </div>
+        <div class="form-group">
+            <textarea name="hasil" id="hasil"></textarea>
+        </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
